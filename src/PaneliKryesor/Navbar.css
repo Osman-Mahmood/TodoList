@@ -1,0 +1,63 @@
+
+:root{
+    --primary-color:#A82C48;
+    --secondary-color:#43121d;
+    --third-color:#f98169;
+    --white-color:#fff;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Quicksand',sans-serif;
+}
+
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+   top: 0;
+    height: 50px;
+    transition: all 0.3s  ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 o.635rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border:unset ;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    letter-spacing: 1px;
+}
+.fa{
+    display: flex;
+    margin: 4px;
+    width: 20px;
+    margin-top: 30px;
+}
+.navbar-icons{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    position:relative;
+}
+.navbar-icons::after{
+   position: absolute;
+   content: "___";
+   display: block;
+   flex-direction: column;
+   top: 0;
+   left: 0;
+   width: 12px;
+   margin-left: 45px;
+   margin-top: 30px;
+
+
+    
+}

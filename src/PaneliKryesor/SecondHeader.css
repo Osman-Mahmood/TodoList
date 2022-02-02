@@ -1,0 +1,25 @@
+.main-logo{
+    margin-top: 70px;
+}
+h1{
+    display: flex;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 80px;
+    margin-top:15px;
+}
+/* .btn-white{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0px 0px rgb(221 208 208 / 80%);
+    background-color: transparent;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 10px;
+    margin-left: 20px;
+} */
+.btn-warning{
+    margin-right: 20px;
+}
